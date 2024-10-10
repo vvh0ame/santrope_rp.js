@@ -7,7 +7,7 @@ async function main() {
 	const { SantropeRp } = require("./santrope_rp.js")
 	const santropeRp = new SantropeRp()
 	const servers = await santropeRp.getServers()
-  console.log(servers)
+  	console.log(servers)
 }
 
 main()
